@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión</title>
+    <link rel="stylesheet" href="inicio.css">
+</head>
+<body class="bg-red">
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="header-title">Multiclinica</h1>
+                <nav class="header-nav">
+                    <ul class="list-unstyled">
+                        <li><a href="/index.html ">inicio</a></li>
+                        <li><a href="../acecade/acercaDe.html">Acerca de</a></li>
+                        <li><a href="./contacto.html">Contacto</a></li>
+                        <li><a href="../servicios/servicios.html">Servicios</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+    <main class="main">
+        <div class="login-container">
+            <h2 class="login-title">Iniciar Sesión</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Gmail:</label>
+                    <input type="email" name="email" class="form-control">
+                </div>
+                <div class="mb-3">
+                    <label for="usuario" class="form-label">Usuario:</label>
+                    <input type="text" name="usuario" class="form-control">
+                </div>
+                <div class="mb-3">
+                    <label for="edad" class="form-label">Edad:</label>
+                    <input type="date" name="edad" class="form-control">
+                </div>
+                <div class="mb-3">
+                    <label for="contrasena" class="form-label">Contraseña:</label>
+                    <input type="password" name="contrasena" class="form-control">
+                </div>
+                <div class="d-grid gap-2">
+                    <input type="reset" value="Reiniciar" class="btn btn-secondary">
+                    <input type="submit" value="Enviar" class="btn btn-primary">
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
